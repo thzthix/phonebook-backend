@@ -3,14 +3,13 @@
 content-type: application/json
 
 {
-    "name":"fubao11",
-    
-     "number":903040434
+    "name":"fubaod1233",
+     "number":"903040434"
     
 }
 
-# # ##
-# DELETE http://localhost:3001/api/persons/2 HTTP/1.1
+###
+DELETE http://localhost:3001/api/persons/65ba794b43cce16d39c7a38a HTTP/1.1
 # # # #
 # GET http://localhost:3001/api/persons/65b9ccccd8faef2d271ba767 HTTP/1.1
 
@@ -18,6 +17,6 @@ content-type: application/json
 GET http://localhost:3001/api/persons HTTP/1.1
 
 ###
-DELETE https://phonebook-wg1m.onrender.com/65b9ccbd347e2677b14a193c HTTP/1.1
+#DELETE https://phonebook-wg1m.onrender.com/65b9ccbd347e2677b14a193c HTTP/1.1
 
 
