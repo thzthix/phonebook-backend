@@ -1,20 +1,20 @@
 # # # # ##
- POST http://localhost:3001/api/persons/ HTTP/1.1
+PUT http://localhost:3001/api/persons/65b9ce5f0fee2e377d52eaf9 HTTP/1.1
 content-type: application/json
 
 {
-    "name":"fubaod1233",
-     "number":"903040434"
+    "name":"fubao",
+     "number":"9030asdsaxcxcd4"
     
 }
 
 ###
-DELETE http://localhost:3001/api/persons/65ba794b43cce16d39c7a38a HTTP/1.1
+DELETE http://localhost:3001/api/persons/65ba794643cce16d39c7a388  HTTP/1.1
 # # # #
 # GET http://localhost:3001/api/persons/65b9ccccd8faef2d271ba767 HTTP/1.1
 
 ###
-GET http://localhost:3001/api/persons HTTP/1.1
+GET http://localhost:3001/api/persons/ HTTP/1.1
 
 ###
 #DELETE https://phonebook-wg1m.onrender.com/65b9ccbd347e2677b14a193c HTTP/1.1
