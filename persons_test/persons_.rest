@@ -4,12 +4,12 @@ content-type: application/json
 
 {
     "name":"fubao",
-     "number":"34553545xcd4"
+     "number":"3354"
     
 }
 
 ###
-DELETE http://localhost:3001/api/persons/65ba794643cce16d39c7a388  HTTP/1.1
+DELETE http://localhost:3001/api/persons/65b9ce5f0fee2e377d52eaf9 HTTP/1.1
 # # # #
 # GET http://localhost:3001/api/persons/65b9ccccd8faef2d271ba767 HTTP/1.1
 
