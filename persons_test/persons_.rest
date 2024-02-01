@@ -1,10 +1,10 @@
 # # # # ##
-PUT http://localhost:3001/api/persons/65bbc65298671a62834165f4 HTTP/1.1
+POST http://localhost:3001/api/persons/ HTTP/1.1
 content-type: application/json
 
 {
-    "name":"fubao",
-     "number":"3354"
+    "name":"09-1234556",
+     "number":"040-22334455"
     
 }
 
