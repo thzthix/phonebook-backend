@@ -80,13 +80,14 @@ app.delete("/api/persons/:id", (request, response, next) => {
 
 app.put("/api/persons/:id", (request, response, next) => {
   const id = request.params.id
-  const { name, number } = request.body
-  Person.findByIdAndUpdate(id, {
-    name,
-    number,
-  })
+  const body = request.body
+  const personToUpdate = {
+    name: body.name,
+    number: body.number,
+  }
+  Person.findByIdAndUpdate(id, personToUpdate)
     .then((updatedPerson) => {
-      response.json(updatedPerson)
+      response.json(personToUpdate)
     })
     .catch((error) => next(error))
 })

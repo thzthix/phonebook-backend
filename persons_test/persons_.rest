@@ -4,7 +4,7 @@ content-type: application/json
 
 {
     "name":"fubao",
-     "number":"9030asdsaxcxcd4"
+     "number":"34553545xcd4"
     
 }
 
