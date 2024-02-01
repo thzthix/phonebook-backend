@@ -1,5 +1,5 @@
 # # # # ##
-PUT http://localhost:3001/api/persons/65bbae082d3dd4ca6d32d91e HTTP/1.1
+PUT http://localhost:3001/api/persons/65bbc65298671a62834165f4 HTTP/1.1
 content-type: application/json
 
 {
@@ -9,12 +9,12 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:3001/api/persons/65bbae082d3dd4ca6d32d91e HTTP/1.1
+DELETE http://localhost:3001/api/persons/65bbc65298671a62834165f4 HTTP/1.1
 # # # #
 # GET http://localhost:3001/api/persons/65b9ccccd8faef2d271ba767 HTTP/1.1
 
 ###
-GET http://localhost:3001/api/persons/65ba785c0b4880e405032876 HTTP/1.1
+GET http://localhost:3001/api/persons HTTP/1.1
 
 ###
 #DELETE https://phonebook-wg1m.onrender.com/65b9ccbd347e2677b14a193c HTTP/1.1
