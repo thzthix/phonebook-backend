@@ -26,9 +26,11 @@ app.get("/api/persons", (request, response) => {
 })
 app.get("/info", (request, response) => {
   const date = new Date().toLocaleString()
-  response.send(
-    `<h1>phonebook has info for ${data.length} people</h1> <br/> <h2>${date}</h2> `
-  )
+  Person.find({}).then((persons) => {
+    response.send(
+      `<h1>phonebook has info for ${persons.length} people</h1> <br/> <h2>${date}</h2> `
+    )
+  })
 })
 app.get("/api/persons/:id", (request, response, next) => {
   Person.findById(request.params.id)
