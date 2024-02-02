@@ -8,7 +8,8 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf dist && cd ../fullstackopen/part2/phonebook && npm run build && cp -r dist ../../../phonebook",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main"
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,8 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.3"
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "prettier": "3.2.4"
   }
 }
